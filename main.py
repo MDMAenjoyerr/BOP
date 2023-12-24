@@ -7,7 +7,7 @@ from aiogram.utils import executor
 bot = Bot(token="6715751133:AAFnqBhs_ZeW8Vrz3E3x-OKOVIWzrwjP4zM")
 dp = Dispatcher(bot)
 
-sticker_folder_path = r"C:\Users\LOBA666\Desktop\DZ\TGbot\BOP\Stickers"
+sticker_folder_path = r"./"
 
 sticker_files = [f for f in os.listdir(sticker_folder_path) if os.path.isfile(os.path.join(sticker_folder_path, f))]
 
